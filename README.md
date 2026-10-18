@@ -315,16 +315,12 @@ If you are new to Laravel, explore the project in this order:
 
 For learning or class use, a useful contribution can include a bug fix, a clearer explanation, accessibility improvements, tests, or a documented feature. Keep changes focused and never include secrets in commits.
 
-## License
-
-No license has been specified in this README. Add a license file and update this section before redistributing the project.
-
 ---
 
 <div align="center">
 
 **Built as a learning project with Laravel, Blade, JavaScript, CSS, MySQL, and email OTP.**
 
-<sub>Red interface. Clear separation of concerns. Learn one layer at a time.</sub>
+<sub>Modern interface. Clear separation of concerns. Learn one layer at a time.</sub>
 
 </div>
