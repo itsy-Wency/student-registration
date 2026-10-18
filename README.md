@@ -1,25 +1,21 @@
 <div align="center">
 
-# 🔴 Student Registration System
-
-### A beginner-friendly Laravel project for learning CRUD, REST APIs, Blade views, and email OTP verification.
+<img src="docs/assets/animated-banner.svg" alt="Animated red and black Student Registration System banner" width="100%">
 
 <p>
   <img src="https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 13">
   <img src="https://img.shields.io/badge/PHP-8.5-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/Frontend-Blade%20%7C%20CSS%20%7C%20JS-111111?style=for-the-badge" alt="Blade CSS JavaScript">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Blade-Templates-111111?style=for-the-badge&logo=laravel&logoColor=FF3944" alt="Blade templates">
 </p>
 
-<p><b>Learn by building. Understand each layer. Keep the frontend and API responsibilities separate.</b></p>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=FF3944&center=true&vCenter=true&width=650&lines=Register+students.;Read+records+through+a+REST+API.;Update+and+delete+student+data.;Verify+email+with+a+time-limited+OTP." alt="Animated project summary">
+<strong>Build. Understand. Improve.</strong>
 
 </div>
 
 ---
 
-## ✨ About the project
+## About the project
 
 The **Student Registration System** is a learning project that demonstrates how a Laravel application can combine a server-rendered interface with API-based data operations.
 
@@ -29,7 +25,7 @@ The interface uses a **red-and-black glassmorphism theme**, with translucent pan
 
 > **For beginners:** A web page, an API endpoint, and a database are three different parts of the application. The page is what a person sees; the API exchanges data; the database stores the records.
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Student records
 
@@ -45,7 +41,7 @@ The OTP page separates requesting a code from submitting the code for verificati
 
 ---
 
-## 🧰 Technology stack
+## Technology stack
 
 | Technology | What it does in this project |
 |---|---|
@@ -58,7 +54,7 @@ The OTP page separates requesting a code from submitting the code for verificati
 | **Laravel Cache** | Stores the short-lived OTP during the verification flow. |
 | **SMTP** | Sends the OTP email using the configured mail server. |
 
-## 🧭 How the application works
+## How the application works
 
 ```mermaid
 flowchart TD
@@ -91,7 +87,7 @@ flowchart TD
 
 ---
 
-## 📂 Project structure
+## Project structure
 
 ```text
 student-registration/
@@ -129,7 +125,7 @@ student-registration/
 
 ---
 
-## 🚀 Getting started
+## Getting started
 
 These steps assume PHP, Composer, Laravel's requirements, and MySQL are already installed. If you are using Laragon on Windows, start the required services first.
 
@@ -225,7 +221,7 @@ The Laravel development server prints the local address in the terminal. Use tha
 
 ---
 
-## 🧪 Student CRUD: what to test
+## Student CRUD: what to test
 
 CRUD stands for **Create, Read, Update, and Delete**.
 
@@ -237,7 +233,7 @@ CRUD stands for **Create, Read, Update, and Delete**.
 
 The API validates fields such as `student_id`, `first_name`, `last_name`, `email`, `course`, and `year_level`. Student ID and email must be unique when creating a record.
 
-## ✉️ Email OTP flow
+## Email OTP flow
 
 1. Enter an email address and request a code.
 2. Check the inbox associated with the configured SMTP account.
@@ -250,7 +246,7 @@ The OTP is designed to expire after **five minutes**. If a code is invalid or ex
 
 ---
 
-## 🎨 Design details
+## Design details
 
 - **Palette:** near-black backgrounds, red accents, and restrained white highlights.
 - **Glassmorphism:** translucent panels, soft borders, and blurred surfaces.
@@ -260,7 +256,7 @@ The OTP is designed to expire after **five minutes**. If a code is invalid or ex
 
 The background animation is decorative. It should not block clicks or interfere with form submission.
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### The browser displays JSON instead of the student page
 
@@ -294,7 +290,7 @@ You probably opened the API endpoint. Use `/students` for the Blade page and `/a
 
 ---
 
-## 🔐 Security notes
+## Security notes
 
 - Keep `.env` out of version control.
 - Do not commit mail credentials, database passwords, or real OTP codes.
@@ -303,7 +299,7 @@ You probably opened the API endpoint. Use `/students` for the Blade page and `/a
 - Use HTTPS and production-appropriate error handling for deployment.
 - Configure rate limits for OTP requests and verification attempts before production use.
 
-## 📚 Beginner learning path
+## Beginner learning path
 
 If you are new to Laravel, explore the project in this order:
 
@@ -315,11 +311,11 @@ If you are new to Laravel, explore the project in this order:
 6. **Database:** follow the model and migration to understand how records are stored.
 7. **OTP flow:** compare the send and verify endpoints, cache expiry, and mail configuration.
 
-## 🤝 Contributing
+## Contributing
 
 For learning or class use, a useful contribution can include a bug fix, a clearer explanation, accessibility improvements, tests, or a documented feature. Keep changes focused and never include secrets in commits.
 
-## 📄 License
+## License
 
 No license has been specified in this README. Add a license file and update this section before redistributing the project.
 

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Student Registration System</title>
+  <desc id="desc">Animated red and black banner for a Laravel student registration project.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#171014"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#e50914" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#e50914" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#background)"/>
+  <ellipse cx="220" cy="90" rx="230" ry="110" fill="url(#glow)" filter="url(#blur)">
+    <animate attributeName="cx" values="180;400;180" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1000" cy="230" rx="250" ry="110" fill="url(#glow)" filter="url(#blur)">
+    <animate attributeName="cx" values="1030;790;1030" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+  <g transform="translate(80 94)">
+    <rect width="72" height="72" rx="18" fill="#e50914">
+      <animate attributeName="opacity" values="1;.72;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M21 24h30M21 36h30M21 48h20" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="180" y="128" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700">Student Registration System</text>
+  <text x="182" y="172" fill="#ff737c" font-family="Segoe UI,Arial,sans-serif" font-size="22" letter-spacing="2">LARAVEL • CRUD • REST API • EMAIL OTP</text>
+  <path d="M80 225H1120" stroke="#ffffff" stroke-opacity=".15"/>
+  <path d="M80 225H300" stroke="#e50914" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="d" values="M80 225H300;M80 225H650;M80 225H300" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <text x="80" y="260" fill="#bdbdbd" font-family="Segoe UI,Arial,sans-serif" font-size="16">Learn one layer at a time.</text>
+</svg>
